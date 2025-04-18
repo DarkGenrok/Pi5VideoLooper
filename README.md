@@ -26,7 +26,7 @@ Clone this repo to <code>/home/pi</code> directory:
 
 ```
 cd /home/pi
-git clone https://github.com/JHathway/Pi5VideoLooper.git
+git clone https://github.com/DarkGenrok/Pi5VideoLooper.git
 ```
 
 ### Dependencies
