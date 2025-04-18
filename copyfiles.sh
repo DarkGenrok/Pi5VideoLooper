@@ -8,6 +8,13 @@ usb_dir="/dev/sda1"
 source_dir="/media/pi"
 target_dir="/home/pi/Videos"
 
+# Ensure the source mount point exists
+if [ ! -d "$source_dir" ]; then
+    echo "Source directory $source_dir does not exist. Creating it..."
+    sudo mkdir -p "$source_dir"
+    sudo chmod "$source_dir" 777
+fi
+
 # Check if USB is already mounted
 if mountpoint -q "$usb_dir"; then
     sudo umount -l "$usb_dir"
