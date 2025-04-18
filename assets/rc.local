@@ -9,7 +9,7 @@
 # In order to enable or disable this script just change the execution
 # bits.
 #
-# By default this script does nothing.
+# This script prints the IP address if found and loads the setup.sh file to begin the looper.
 
 # Print the IP address
 _IP=$(hostname -I) || true
