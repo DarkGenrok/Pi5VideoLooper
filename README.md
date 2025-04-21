@@ -60,6 +60,4 @@ Using the video looper:
 1. Copy the compatible video files to the root of a USB.
 2. Connect the USB to the Pi and reboot.
 
-Any video file detected will be copied to the SD card for playback. You will get a 10 second countdown before the video playback begins. 
-
-When booted, the Pi will copy all video files on the USB drive (see [introduction](#introduction) for accepted file types) to a playlist on the Pi. The playlist will then automatically start looping.
+When booted, the Pi will copy all video files on the USB drive (see [introduction](#introduction) for accepted file types) to a playlist on the Pi.  You will get a 10 second countdown before the video playback begins looping.
