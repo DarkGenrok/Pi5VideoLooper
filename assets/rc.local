@@ -17,6 +17,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-/usr/bin/bash /home/pi/Pi5VideoLooper/setup.sh
+/usr/bin/bash /home/pi/SimplePiVideoLooper/setup.sh
 
 exit 0
