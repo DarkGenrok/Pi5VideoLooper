@@ -12,7 +12,7 @@ target_dir="/home/pi/Videos"
 if [ ! -d "$source_dir" ]; then
     echo "Source directory $source_dir does not exist. Creating it..."
     sudo mkdir -p "$source_dir"
-    sudo chmod "$source_dir" 777
+    sudo chmod 777 "$source_dir"
 fi
 
 # Check if USB is already mounted
@@ -31,7 +31,7 @@ fi
 echo "USB device found :$usb_dir."
 
 # Mount USB
-echo "Moutning USB..."
+echo "Mounting USB..."
 sudo mount "$usb_dir" "$source_dir"
 
 # Check if mounted successfully
