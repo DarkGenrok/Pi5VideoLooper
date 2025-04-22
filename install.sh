@@ -7,14 +7,14 @@ mkdir /home/pi/Videos
 # Replace rc.local
 echo "Replacing /etc/rc.local..."
 rm -rf /etc/rc.local
-cp /home/pi/Pi5VideoLooper/assets/rc.local /etc/
+cp /home/pi/SimplePiVideoLooper/assets/rc.local /etc/
 
 # Make file executable
 chmod +x /etc/rc.local
 echo "Done."
 
 # Add a line to .bashrc if it doesn't already exist
-LINE_TO_ADD="bash /home/pi/Pi5VideoLooper/playback.sh"
+LINE_TO_ADD="bash /home/pi/SimplePiVideoLooper/playback.sh"
 BASHRC_FILE="/home/pi/.bashrc"
 
 # Check if the line already exists, then append if not
